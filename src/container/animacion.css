@@ -1,0 +1,12 @@
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: white;
+    animation: escribir 5s;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0% }
+}

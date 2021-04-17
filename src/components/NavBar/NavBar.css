@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar{
+    display: flex;
+    margin: auto;
+    background-color:#282c34; 
+    justify-content:space-around;
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+ }
+
+ul,ol {
+    list-style: none
+}
+
+
+.navBar li p{
+    background-color:#282c34; 
+    display: block;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navBar li p:hover{
+    background-color:#303849;  
+}
+
+.navBar > li {
+    float: left;
+}
+
+.navBar li ul{
+   display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navBar li:hover > ul{
+    display: block;
+}
+
+.navBar li ul li{
+    position: relative;
+    top: 0px;
+}
+
+#subMenu{
+  
+    margin: auto;
+}
+/*
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#menu{
+    margin: auto;
+ 
+ }
+
+ul,ol {
+    list-style: none
+}
+
+.navBar > li {
+    float: left;
+    
+}
+
+.navBar li p{
+    background-color:#282c34; 
+    padding: 10px 15px;
+    display: block;
+}
+
+.navBar li p:hover{
+    background-color:#303849;  
+}
+
+.navBar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navBar li:hover > ul{
+    display: block;
+}
+
+.navBar li ul li{
+    position: relative;
+    top: 0px;
+}
+*/
