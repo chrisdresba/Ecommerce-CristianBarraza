@@ -6,7 +6,13 @@ h1 span {
     animation: escribir 5s;
 }
 
+
 @keyframes escribir {
     from { width: 100% }
     to { width:0% }
+}
+
+.carrousel{
+    width: 70%;
+    margin-top: 30px;
 }

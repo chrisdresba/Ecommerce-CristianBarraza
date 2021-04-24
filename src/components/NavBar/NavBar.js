@@ -6,7 +6,7 @@ import Logo from '../NavBar/logo.png'
 const NavBar = () => {
 //display:'flex',flexDirection: 'row'
     return(
-        <React.Fragment>
+        <>
             <div id='menu'>
                 <ul class='navBar'> 
                   <li> <img src={Logo}/></li>
@@ -35,7 +35,7 @@ const NavBar = () => {
                 </ul>
            
             </div>   
-         </React.Fragment>     
+         </>     
        
     )
 }

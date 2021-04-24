@@ -1,14 +1,16 @@
 *{
     padding: 0px;
     margin: 0px;
+  
 }
 
 .navBar{
     display: flex;
     margin: auto;
-    background-color:#282c34; 
+    background-color:#000; 
     justify-content:space-around;
     font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+
  }
 
 ul,ol {
@@ -17,14 +19,14 @@ ul,ol {
 
 
 .navBar li p{
-    background-color:#282c34; 
+    background-color:#000; 
     display: block;
     padding: 10px 15px;
     display: block;
 }
 
 .navBar li p:hover{
-    background-color:#303849;  
+    background-color:#000;  
 }
 
 .navBar > li {
@@ -49,46 +51,3 @@ ul,ol {
   
     margin: auto;
 }
-/*
-*{
-    padding: 0px;
-    margin: 0px;
-}
-#menu{
-    margin: auto;
- 
- }
-
-ul,ol {
-    list-style: none
-}
-
-.navBar > li {
-    float: left;
-    
-}
-
-.navBar li p{
-    background-color:#282c34; 
-    padding: 10px 15px;
-    display: block;
-}
-
-.navBar li p:hover{
-    background-color:#303849;  
-}
-
-.navBar li ul{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-.navBar li:hover > ul{
-    display: block;
-}
-
-.navBar li ul li{
-    position: relative;
-    top: 0px;
-}
-*/
