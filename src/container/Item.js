@@ -1,7 +1,8 @@
 import React from 'react'
 import './Item.css'
+import ItemCount from '../components/ItemCount'
 
-const Item = ({Id,precio,title,descripcion,img}) => {
+const Item = ({Id,precio,title,descripcion,img,stock}) => {
 
     return (
      <>
@@ -13,10 +14,12 @@ const Item = ({Id,precio,title,descripcion,img}) => {
                     <strong>$ {precio}</strong>
                 </p>
                 <p className = "product-style">{descripcion}</p>
-                <p>{Id}</p>
+                <p className = "product-id">#{Id}</p>
             </div>
-            <button>Agregar al Carrito</button>
-           
+            <button>Agregar al Carrito</button>          
+            <div className="product-stock">
+                <ItemCount stock={stock}/>
+            </div>
         </div>
      </>  
     )

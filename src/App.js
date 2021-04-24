@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Carrousel from './container/carrousel';
+import Carrousel from './components/carrousel';
 import ItemListContainer from './container/ItemListContainer'
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (  
@@ -11,6 +12,7 @@ function App() {
             <NavBar />
             <Carrousel />
             <ItemListContainer/>
+            <Footer/>
             </header > 
             
         </div>
