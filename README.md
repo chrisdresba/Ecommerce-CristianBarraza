@@ -14,7 +14,8 @@ La configuración se realizo con los parametros adecuados permitiendo navegar de
 su listado de productos. Movilizandonos dentro de la pagina con los botones de retroceder o avanzar del navegador,
 mantenemos la configuración correspondiente a la url indicada.
 
-
+Una tarea pendiente es aplicar Bootstrap Responsive. Aun no se solicito aplicar, pero doy por entendido que 
+sera obligarotio para la segunda entrega del proyecto final.
 
 
 
