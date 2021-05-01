@@ -1,3 +1,27 @@
+#Primera entrega del Proyecto Final
+
+Se agregaron los archivos ItemDetailContainer e ItemDetail al contenedor cumpliendo los requisitos solicitados.
+
+Se aplicaron las rutas de Navegación con la siguiente configuración:
+- ‘/’ navega a <ItemListContainer />, la cual nos lleva al listado de productos
+- ‘/category/:id’ <ItemListContainer />, la cual nos lleva a un listado de productos de la categoria correspondiente
+- ‘/item/:id’ navega a <ItemDetailContainer />, la cual nos lleva a un producto en especifico.
+
+Al clickear el Home o el Logo nos lleva a la ruta '/'.
+Al clickear en Servicios, Ubicación o contacto nos lleva a su respectiva ruta cargando una imagen de construcción.
+
+La configuración se realizo con los parametros adecuados permitiendo navegar de una categoria a la otra, respetando
+su listado de productos. Movilizandonos dentro de la pagina con los botones de retroceder o avanzar del navegador,
+mantenemos la configuración correspondiente a la url indicada.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

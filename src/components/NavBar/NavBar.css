@@ -4,14 +4,30 @@
   
 }
 
+.header{
+    display: flex;
+    margin: auto;
+    background-color:#000; 
+    justify-content:flex-start;
+    color: #ddd;
+    font-family: Calibri,sans-serif;
+    font-size: 14px;
+}
 .navBar{
     display: flex;
     margin: auto;
     background-color:#000; 
-    justify-content:space-around;
-    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    justify-content:flex-start;
+    color: #ddd;
+    font-family: Calibri,sans-serif;
+    font-size: 14px;
 
  }
+
+.navLogo{
+    width:70px;
+    margin-left: 10px;
+}
 
 ul,ol {
     list-style: none
@@ -22,7 +38,7 @@ ul,ol {
     background-color:#000; 
     display: block;
     padding: 10px 15px;
-    display: block;
+    color: #ddd; 
 }
 
 .navBar li p:hover{
@@ -31,6 +47,7 @@ ul,ol {
 
 .navBar > li {
     float: left;
+    
 }
 
 .navBar li ul{
@@ -51,3 +68,9 @@ ul,ol {
   
     margin: auto;
 }
+
+.navStyle{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
